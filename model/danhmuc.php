@@ -23,7 +23,7 @@ function loadone_danhmuc($id){
 }
 
 function update_danhmuc($id, $name){
-    $sql="update danhmuc set name='".$ name."' where id=".$id;
+    $sql="update danhmuc set name='".$name."' where id=".$id;
     pdo_execute($sql);
 }
 
