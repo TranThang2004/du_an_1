@@ -16,7 +16,7 @@
                     </div>
                     <div class="row mb10">
                         Tên loại <br>
-                    <input type="text" name="tenloai" value="<?php if(isset($ten)&&($ten!="")) echo $ten; ?>">
+                    <input type="text" name="tenloai" value="<?php if(isset($name)&&($name!="")) echo $name; ?>">
                     </div>
                     <div class="row mb10">
                         <input type="hidden" name="id" value="<?php if(isset($id)&&($id>0)) echo $id; ?>">
